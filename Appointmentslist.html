@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    <title>Document</title>
+
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 5% 10%;
+        }
+        table{
+            width: 100%;
+    
+
+        }
+        th{
+            padding: 0.5%;
+        }
+        td{
+            padding: 1%;
+        }
+        .status{
+            height: 30px;
+            width: 100px;
+            padding: 1%;
+        }
+        .appoint{
+            border-radius: 360px;
+            margin: -100px auto auto 80%;
+        }
+       
+    </style>
+</head>
+<body>
+    <h2>APPOINTMENTS</h2>
+    <a href="appointment.html"><button class="btn btn-lg btn-primary appoint">+ Add Appointment</button></a>
+
+    <table>
+        <thead class="table-dark">
+            <tr>
+                <th>Appointment ID</i></th>
+                <th>Patient's Name</th>
+                <th>Age</th>
+                <th>Doctor's Name</th>
+                <th>Department</th>
+                <th>Appointment Date</th>
+                <th>Appointment Time</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tr class="table-light"> 
+            <td>APT001</td>
+            <td>Yuvraj Thakur</td>
+            <td>18</td>
+            <td>Shirley Willies</td>
+            <td>Neurology</td>
+            <td>27/06/2020</td>
+            <td>10AM-12PM</td>
+            <td><button class="status btn btn-outline-success">Active</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        </tr>
+        <tr class="table-dark"> 
+            <td>APT002</td>
+            <td>Manan Shah</td>
+            <td>18</td>
+            <td>Michale sullivan</td>
+            <td>Radiology</td>
+            <td>27/06/2020</td>
+            <td>9AM-10PM</td>
+            <td><button class="status btn btn-outline-danger">Inactive</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        </tr>
+    </table>
+</body>
+</html>

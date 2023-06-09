@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    <title>Document</title>
+
+    <title>Document</title>
+</head>
+<body style="margin: 5% 20%;">
+    <form>
+        <div class="row">
+            <div class="form-group col-lg-6">
+                <label for="APTID">Appoint Id</label>
+                <input type="text" class="form-control" placeholder="Enter Appointment Id">
+            </div>
+            <div class="form-group col-lg-6">
+                <label for="name">Patient's Name</label>
+                <select class="custom-select ">
+                <option selected>Select Patients Name</option>
+                <option value="1">/Yuvraj</option>
+                <option value="2">Manan</option>
+                <option value="3">Amresh</option>
+                <option value="4">Arsh</option>
+                <option value="5">Abhay</option>
+            </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-lg-6">
+                <label for="Department">Department</label>
+                <select class="custom-select ">
+                <option selected>Select Department</option>
+                <option value="1">Pathology</option>
+                <option value="2">Neurology</option>
+                <option value="3">cardiology</option>
+                <option value="4">Gynecology</option>
+            </select>
+            </div>
+            <div class="form-group col-lg-6">
+                <label for="Doctor">Doctor</label>
+                <select class="custom-select ">
+                <option selected>Select Doctor's Name</option>
+                <option value="1">Shirley Willies</option>
+                <option value="2">Henry Daniels</option>
+                <option value="3">Christina Groves</option>
+                <option value="4">Marie Wells</option>
+                <option value="5">Ronald jacobs</option>
+            </select>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="form-group col-lg-6">
+            
+                <label for="Date">Date</label>
+                <input type="date" class="form-control" >
+            </div>
+            <div class="form-group col-lg-6">
+            
+                <label for="time">Time</label>
+                <input type="time" class="form-control" >
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="form-group col-lg-6">
+                <label for="Email">Patient's Email</label>
+                <input type="email" class="form-control" placeholder="Enter Email">
+            </div>
+            <div class="form-group col-lg-6">
+                <label for="PhNo.">Patient's Phone No.</label>
+                <input type="number" class="form-control" placeholder="Enter Phone Number">
+            </div>
+        </div>
+
+        <div class="form-group ">
+            <label for="msg">Message</label>
+            <input type="text" class="form-control"  style="height: 100px;">
+        </div>
+        <div class="form-group " style="margin: 40px auto auto 20px;">
+            <label for="AppointmentStatus">Appointment Status:</label>
+            <div class=" form-check-inline" >
+                    
+                <label class="form-check-label" style="margin-left: 10px;">Active
+                    <input type="radio" class="form-check-input" name="optradios">
+                </label>
+                </div>
+                
+                <div class="form-check-inline">
+                <label class="form-check-label">Inactive
+                    <input type="radio" class="form-check-input" name="optradios">
+                </label>
+            </div>
+        </div>
+    
+        
+        </form>
+    <a href="Index.html"><button class="btn btn-lg btn-primary" style="width: 25%; margin-left: 35%; margin-top: 20px; border-radius: 360px;">Creat Appointment</button></a>
+        
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    <title>Document</title>
+
+    <title>Document</title>
+    <style>
+        
+            img{
+            height: 30px;
+            width: 30px;
+            border-radius: 360px;
+            margin-left: 10px;
+            margin-right: 10%;
+        }
+        body{
+            margin: 5% 10%;
+        }
+        table{
+            width: 100%;
+        }
+        td{
+            padding: 1%;
+        }
+        th{
+            padding: 0.5%;
+        }
+        .status{
+            height: 30px;
+            width: 100px;
+            padding: 1%;
+        }
+        .sched{
+            border-radius: 360px;
+            margin: -100px auto auto 80%;
+        
+        }
+    </style>
+</head>
+<body>
+    <h2>SCHEDULE</h2>
+    <a href="Schdule.html"><button class="btn btn-lg btn-primary sched">+ Add Schedule</button></a>
+
+    <table>
+        <thead class="table-dark">
+            <tr>
+                <th>Doctor's Name</th>
+                <th>Department</th>
+                <th>Available Days</th>
+                <th>Available Time</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+        </thead>
+
+        <tr class="table-light">
+            <td><img src="images/male1.jpg" alt="">Henry Daniels</td>
+            <td>Cardiology</td>
+            <td>Sunday,Monday,Wednesday</td>
+            <td>10AM-1PM</td>
+            <td><button class="status btn btn-outline-danger status">Inactive</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        
+        </tr>
+
+        <tr class="table-dark">
+            <td><img src="images/female4.png" alt="">Shirley Willies</td>
+            <td>Neurology</td>
+            <td>Saturday,Tuesday,Thursday</td>
+            <td>10AM-1PM</td>
+            <td><button class="status btn btn-outline-success status">Active</button></td>
+            <td><button class="btn far fa-ellipsis-v-alt"></button></td>
+        
+        </tr>
+
+    </table>    
+</body>
+</html>
